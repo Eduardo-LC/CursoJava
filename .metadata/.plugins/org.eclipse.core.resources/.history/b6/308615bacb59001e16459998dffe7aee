@@ -1,0 +1,22 @@
+package oo.herança.desafio;
+
+public class Carro {
+
+	//Velocidade Atual
+	//Frear
+	//Acelerar
+	
+	double velocidadeAtual = 0;
+	
+	double acelerar() {
+		velocidadeAtual += 5;
+		return velocidadeAtual;
+	}
+	
+	double frear() {
+		velocidadeAtual -= 5;
+		return velocidadeAtual;
+	}
+	
+	
+}

@@ -1,0 +1,13 @@
+package execao.personalizadaA;
+
+@SuppressWarnings("serial")
+public class NumeroNegativoException extends RuntimeException {
+	
+	public String nomeDoAtributo;
+	
+	public NumeroNegativoException(String nomeDoAtributo) {
+		this.nomeDoAtributo = nomeDoAtributo;
+		
+	}
+
+}

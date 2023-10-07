@@ -1,0 +1,8 @@
+package streams;
+
+public class MediaTeste {
+	
+	Media m1 = new Media();
+	m1.adicionar(8.3);
+
+}

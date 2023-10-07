@@ -1,0 +1,34 @@
+package oo.composicao.desafio;
+
+import java.util.ArrayList;
+
+import oo.composicao.Item;
+
+public class Compra {
+	
+	ArrayList<oo.composicao.desafio.Item> itens = new ArrayList<>();
+	
+	Compra(){
+		
+	}
+	
+	
+	
+	void adicionarItens(oo.composicao.desafio.Item item) {
+		
+		
+		
+	}
+	
+	public double obterValorTotal() {
+		double total = 0;
+		
+		for(oo.composicao.desafio.Item item: itens) {
+			total += item.quantidade * item.produto.preco;
+		}
+		
+		return total;
+	
+	}
+
+}

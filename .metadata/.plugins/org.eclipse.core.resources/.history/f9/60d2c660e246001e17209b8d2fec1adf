@@ -1,0 +1,64 @@
+package controle;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDiaSemana {
+	
+	public static void main(String[] args) {
+		
+		// Domingo 1
+		// segunga 2
+		// terça 3
+		// quarta 4
+		// quinta 5
+		// sexta 6
+		// sabado 7
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite o dia da semana");
+		
+		String diasemana = entrada.next();
+		
+	
+		
+		if("domingo".equalsIgnoreCase(diasemana)) {
+			System.out.println(1);
+		}
+		else if (diasemana == "segunda") {
+			double dianum = 2;
+			System.out.println(dianum);
+		}
+		else if (diasemana == "teça") {
+			double dianum = 3;
+			System.out.println(dianum);
+		}
+		else if (diasemana == "quarta") {
+			double dianum = 4;
+			System.out.println(dianum);
+		}
+		else if (diasemana == "quinta") {
+			double dianum = 5;
+			System.out.println(dianum);
+		}
+		else if (diasemana == "sexta") {
+			double dianum = 6;
+			System.out.println(dianum);
+		}
+		else {
+			double dianum = 7;
+			System.out.println(dianum);
+		}
+		
+		
+		
+		
+		entrada.close();
+		
+			
+	}
+		
+}
+

@@ -1,0 +1,11 @@
+package generics;
+
+public class CaixaTeste {
+	
+	public static void main(String[] args) {
+		
+		Caixa <SUCULO> caixaA = new Caixa();
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package oo.herança.desafio;
+
+public class Carro {
+
+	//Velocidade Atual
+	//Frear
+	//Acelerar
+	
+	double velocidadeAtual = 0;
+	
+	void acelerar() {
+		if(velocidadeAtual > 0) {
+			velocidadeAtual += 5;
+		}
+		else {
+			System.out.println("ERRO DE VELOCIDADE");
+		} 
+	}
+	
+	void frear() {
+		if(velocidadeAtual > 0) {
+			velocidadeAtual -= 5;
+		}
+		else {
+			System.out.println("ERRO DE VELOCIDADE");
+		}
+	}
+	
+}

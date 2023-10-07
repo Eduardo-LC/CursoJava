@@ -1,0 +1,15 @@
+package oo.herança.desafio;
+
+public class Ferrari extends Carro{
+	
+	double acelerar() {
+		
+		double acelerar1 = super.acelerar();
+		acelerar1 = super.acelerar();
+		acelerar1 = super.acelerar();
+		
+		return velocidadeAtual;
+	}
+	
+
+}

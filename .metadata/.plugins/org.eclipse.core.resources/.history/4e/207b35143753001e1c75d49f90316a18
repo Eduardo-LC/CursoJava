@@ -1,0 +1,39 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class DesafioMatriz {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+			
+		System.out.print("Favor digite a quantidade de alunos a serem digitadas: ");
+		int qAlunos = entrada.nextInt();
+		
+		
+			
+		for (int i = 0; i < qAlunos; i++) {
+			
+			for(int j = 0; j < qNotas; j++) {
+			System.out.print("Digite a Quantidade de notas deste aluno: ");	
+			double qNotas = entrada.nextDouble();
+			
+			double[][] notas = new double[qAlunos][qNotas];
+			System.out.print("Digite a nota do " + (i+1) + " aluno: ");
+			notas[i][] = entrada.nextInt();
+			}	
+		}
+		double soma = 0;
+			
+		for(double nota: notas) {
+			soma += nota;
+		}
+			
+		double media = soma / qNotas;
+		System.out.println("a média das notas dos alunos é " + media);
+			
+		entrada.close();
+	}
+
+}

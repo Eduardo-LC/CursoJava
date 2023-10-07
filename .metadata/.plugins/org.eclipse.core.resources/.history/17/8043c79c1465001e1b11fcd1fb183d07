@@ -1,0 +1,10 @@
+package generics;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class Pares<X, Y> extends Par{
+	
+	private final SortedSet<Par<String, Boolean>> itens = new TreeSet<E>()
+
+}

@@ -1,0 +1,18 @@
+package classe;
+
+public class Data {
+	
+	double mes;
+	double dia;
+	double ano;
+
+	
+	String obterDataFormatada( ) {
+		String obterDataFormada = " %.0f/%.0f/%.0f "
+		
+		return obterDataFormada
+		
+	}
+	
+	
+}

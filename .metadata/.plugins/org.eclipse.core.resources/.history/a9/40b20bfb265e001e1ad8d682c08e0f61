@@ -1,0 +1,22 @@
+package lambdas;
+
+public class Produto extends Object {
+	
+	final String nome;
+	double preco;
+	final double desconto;
+	
+	public Produto(String nome, double preco, double desconto) {
+		this.nome = nome;
+		this.preco = preco;
+		this.desconto = desconto;
+	}
+	
+	public String toString() {
+		
+		return String.format("Formatar: R$%.1f", preco);
+		
+		//Formatar: R$1234,56
+	}
+
+}

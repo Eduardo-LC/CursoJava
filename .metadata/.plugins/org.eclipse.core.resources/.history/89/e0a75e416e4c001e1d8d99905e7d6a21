@@ -1,0 +1,46 @@
+package controle;
+
+import java.util.Scanner;
+
+
+
+public class DesafioWhile {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		int contAlunos = 0;
+		int total = 0;
+		String texto = "";
+		int media = 0;
+	
+		
+		while(!texto.equalsIgnoreCase("sair")) {
+			System.out.print("Digite a nota do aluno: ");
+			double nota = entrada.nextDouble();
+			
+			if(nota >= 0 && nota <= 10  ) {
+			total += nota;
+			contAlunos++;
+			media = total / contAlunos;
+			
+			System.out.println("deseja continuar?");
+			System.gc();
+			
+			texto = entrada.nextLine();
+			texto = entrada.nextLine();
+			
+			}
+			else {
+				System.out.println("Número inválido");
+			}
+			System.out.println(media);
+		}
+		
+		
+		
+		entrada.close();
+	}
+
+}

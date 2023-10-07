@@ -1,0 +1,9 @@
+package classe;
+
+public class Data {
+	
+	double mes;
+	double dia;
+	double ano;
+
+}

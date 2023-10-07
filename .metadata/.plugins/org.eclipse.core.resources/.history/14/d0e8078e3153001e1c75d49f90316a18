@@ -1,0 +1,23 @@
+package arrays;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class DesafioMedia {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Favor digite a quantidade de notas a serem digitadas: ");
+		int qNotas = entrada.nextDouble();
+		
+		double[] total = new double [qNotas];
+		for (int i = 0; i < qNotas; i++) {
+			System.out.println("Digite a nota do " + i+1 + " aluno");
+			double notas = entrada.nextDouble();
+			
+		}
+	}
+	
+}

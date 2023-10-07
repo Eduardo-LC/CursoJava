@@ -1,0 +1,26 @@
+package fundamentos;
+
+import javax.swing.JOptionPane;
+
+
+public class DesafioCalculadora {
+	
+	public static void main(String[] args) {
+		
+	
+		
+
+		
+		double resultado = "+".equals(tipo) ? valor1 + valor2 : 0;
+		resultado = "+".equals(tipo) ? valor1 + valor2 : 0;
+		 
+		boolean posi = "posi" == tipo ;
+		boolean negativ = "negativ" == tipo = valor1 - valor2;
+		
+		System.out.printf("%2f %s %f = ?", valor1, tipo, valor2);
+		
+
+		
+	}
+
+}

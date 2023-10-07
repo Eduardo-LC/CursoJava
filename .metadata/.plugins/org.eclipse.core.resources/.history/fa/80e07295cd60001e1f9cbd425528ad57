@@ -1,0 +1,20 @@
+package streams;
+
+public class Produto {
+	
+	double preco;
+	final double desconto;
+	final boolean freteGratis;
+	final String nome;
+	
+	public Produto(double preco, double desconto, boolean freteGratis, String nome) {
+		super();
+		this.preco = preco;
+		this.desconto = desconto;
+		this.freteGratis = freteGratis;
+		this.nome = nome;
+	}
+
+	
+
+}

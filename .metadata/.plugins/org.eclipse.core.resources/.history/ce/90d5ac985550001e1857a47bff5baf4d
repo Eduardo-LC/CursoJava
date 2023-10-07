@@ -1,0 +1,30 @@
+package classe;
+
+public class Pessoa {
+	
+	String nome;
+	int peso;
+	
+	Pessoa (){
+		
+	}
+	
+	Pessoa (String nome, int peso){
+		this.nome = nome;
+		this.peso = peso;
+	}
+	
+	Double comer (int peso) {
+		
+		Comida c1 = new Comida();
+		
+		int pesoAtualizado = peso + c1.pesoComida;
+		return pesoAtualizado
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package classe;
+
+public class Comida {
+	
+	String nomeComida;
+	int pesoComida;
+	
+	Comida (){
+	
+	}
+	
+	Comida (String nomeComida, pesoaComida){
+		this.nomeComida = nomeComida;
+	}
+
+}

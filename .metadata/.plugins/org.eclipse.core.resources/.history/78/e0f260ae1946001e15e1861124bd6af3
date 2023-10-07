@@ -1,0 +1,28 @@
+package fundamentos;
+
+import javax.swing.JOptionPane;
+
+
+public class DesafioCalculadora {
+	
+	public static void main(String[] args) {
+		
+	
+		
+		
+			
+		String valor1 = JOptionPane.showInputDialog(
+				"Digite o primeiro número:");
+		String valor2 = JOptionPane.showInputDialog(
+				"Digite o segundo número:");
+		String tipo = JOptionPane.showInputDialog(
+				"Digite o tipo de operação:");
+		
+		System.out.printf("%2f %s %f = ?", valor1, tipo, valor2);
+		
+
+		boolean posi = "posi" == tipo ;
+		boolean negativ = "negativ" == tipo = valor1 - valor2;
+	}
+
+}

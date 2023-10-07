@@ -1,0 +1,12 @@
+package oo.herança.desafio;
+
+public class TesteCarro {
+	
+	public static void main(String[] args) {
+		
+		Carro c = new Carro();
+		
+		System.out.println(c.velocidadeAtual);
+	}
+
+}

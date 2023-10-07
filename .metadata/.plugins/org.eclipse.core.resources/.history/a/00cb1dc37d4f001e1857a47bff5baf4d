@@ -1,0 +1,27 @@
+package classe;
+
+public class Data {
+	
+	double mes;
+	double dia;
+	double ano;
+	
+	Data (){
+		mes = 1;
+		dia = 1;
+		ano = 1970;
+	}
+	
+	Data (double mesInicial, double diaInicial, double anoInicial){
+		mes = mesInicial;
+		dia = diaInicial;
+		ano = anoInicial;	
+	}
+
+	
+	String obterDataFormatada() {
+		return String.format(" %.0f/%.0f/%.0f " ,dia , mes , ano);
+	}
+	
+	
+}

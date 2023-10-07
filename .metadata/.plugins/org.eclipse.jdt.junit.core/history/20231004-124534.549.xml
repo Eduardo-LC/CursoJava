@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Teste" project="campo_minado" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.cod3r.cm.Teste" time="0.012" displayname="Teste" uniqueid="[engine:junit-jupiter]/[class:br.com.cod3r.cm.Teste]">
+    <testcase name="testarSeIgualADois" classname="br.com.cod3r.cm.Teste" time="0.011" displayname="testarSeIgualADois()" uniqueid="[engine:junit-jupiter]/[class:br.com.cod3r.cm.Teste]/[method:testarSeIgualADois()]"/>
+    <testcase name="testarSeIgualATres" classname="br.com.cod3r.cm.Teste" time="0.001" displayname="testarSeIgualATres()" uniqueid="[engine:junit-jupiter]/[class:br.com.cod3r.cm.Teste]/[method:testarSeIgualATres()]"/>
+  </testsuite>
+</testrun>

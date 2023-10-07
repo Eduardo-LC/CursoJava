@@ -1,0 +1,5 @@
+package execao.personalizadaA;
+
+public class NumeroNegativoException {
+
+}

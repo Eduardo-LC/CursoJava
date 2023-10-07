@@ -1,0 +1,50 @@
+package lambdas;
+
+import java.util.function.Predicate;
+import java.util.function.UnaryOperator;
+
+public class Desafio {
+	
+	public static void main(String[] args) {
+		
+		Produto p = new Produto("iPad", 3500, 0.13);
+		
+		UnaryOperator<Double> Desconto = n -> n *(1 - 0.13);
+		
+		Predicate<Double> ImpostoMunicipal = n -> n >= 2500;
+		
+		Predicate<Double> FreteCaro = n -> n >= 3000;
+		
+		
+		ValorDesconto = Desconto.apply(p.preco);
+		
+		
+		if(ImpostoMunicipal.test(ValorDesconto)) == true) {
+			
+			ValorDesconto = ValorDesconto * (1 - 0.085);
+			System.out.println(p.preco);
+		}
+		
+		if(FreteCaro.test(p.preco) == true) {
+			p.preco = p.preco - 100;
+		}else {
+			p.preco = p.preco -50;
+		}
+		
+		
+		System.out.printf("%.2f",p.preco);
+					
+		
+		/*
+		 * 1. Apartir do produto calcular o preco real (com desconto)
+		 * 2. Imposto municipal : >= 2500 (8,5%) / 2500 (Isento)
+		 * 3. Frete: >= 3000 (100) / < 3000 (50)
+		 * 4. Arredondar: Deixar duas casas decimais
+		 * 5. Formatar: R$1234,56
+		 */
+		
+		
+	}
+
+
+}

@@ -1,0 +1,15 @@
+package generics;
+
+public class Caixa<SUCULO> {
+	
+	private SUCULO coisa;
+	
+	public void guardar(SUCULO coisa) {
+		this.coisa = coisa;
+	}
+	
+	public SUCULO abrir() {
+		return coisa;
+	}
+
+}

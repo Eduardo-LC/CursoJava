@@ -1,0 +1,8 @@
+package generics;
+
+public class CaixaNumeroTeste {
+	
+	CaixaNumero<Double> caixaA = new CaixaNumero<>();
+
+	caixaA.guardar(2.3);
+}

@@ -1,0 +1,18 @@
+package execao.personalizadaA;
+
+@SuppressWarnings("serial")
+public class NumeroNegativoException extends RuntimeException {
+	
+	public String nomeDoAtributo;
+	
+	public NumeroNegativoException(String nomeDoAtributo) {
+		this.nomeDoAtributo = nomeDoAtributo;
+	}
+
+	
+	public getMessage() {
+		
+		return String.format("o atributoi %s está negativo",
+				nomeDoAtributo);
+	}
+}

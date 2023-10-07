@@ -1,0 +1,13 @@
+package streams;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ImprimindoObjetos {~
+	
+	public static void main(String[] args) {
+		
+	List<String> aprovados = ArrayList ("Lu", "Gui", "Luca", "SeuCuca");
+	}
+
+}

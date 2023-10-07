@@ -1,0 +1,61 @@
+package classe;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+
+public class TestePrintTxt {
+	
+	public static void main(String[] args) {
+		
+				// Especifique o caminho para o arquivo de texto de entrada e saída
+		        String caminhoEntrada = "C:/Teste01/teste01.txt";
+		        String caminhoSaida = "C:/Teste01/saida.txt";
+
+		        try {
+		            // Use a API java.nio.file para obter um Stream das linhas do arquivo de entrada
+		            Path pathEntrada = Paths.get(caminhoEntrada);
+		            Stream<String> linhas = Files.lines(pathEntrada);
+
+		            // Use map para processar as linhas e remover caracteres indesejáveis, exceto após letras maiúsculas
+		            Stream<String> linhasProcessadas = linhas.map(line -> {
+		                StringBuilder resultado = new StringBuilder();
+		                boolean manter = true;
+		            for (String b : ) {
+		                for (char c : line.toCharArray()) {
+		                    if (Character.isUpperCase(c)) {
+		                        manter = true;
+		                    }
+
+		                    else if (manter) {
+		                        resultado.append(c);
+		                    }
+		                }
+		            }
+
+		                return resultado.toString();
+		            });
+
+		            // Imprima as linhas processadas no console
+		            linhasProcessadas.forEach(System.out::println);
+
+		            // Colete as linhas processadas em uma lista
+		            // e escreva-as em um novo arquivo de saída
+		            Path pathSaida = Paths.get(caminhoSaida);
+		            Files.write(pathSaida, linhasProcessadas.collect(Collectors.toList()));
+
+		            // Feche os Streams
+		            linhas.close();
+		        } catch (IOException e) {
+		            System.out.println("Ocorreu um erro ao processar o arquivo: " + e.getMessage());
+		        }
+		    }
+		}
+		
+	
+
+

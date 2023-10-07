@@ -1,0 +1,25 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		int contAlunos = 1;
+		int total = 0;
+		String texto = "";
+		
+		while(!texto.equalsIgnoreCase("sair") ) {
+			System.out.println("Digite a nota do aluno: ");
+			double nota = double.nextLine();
+		}
+		
+		
+		
+		entrada.close();
+	}
+
+}

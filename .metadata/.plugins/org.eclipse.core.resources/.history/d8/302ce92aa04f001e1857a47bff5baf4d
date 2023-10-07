@@ -1,0 +1,20 @@
+package classe;
+
+public class PrimeiroTrauma {
+	
+	int a = 3;
+	
+	public static void main(String[] args) {
+		
+		PrimeiroTrauma class1 = new PrimeiroTrauma (null, null);
+		//PrimeiroTrauma.main(args);
+		class1.accessFlags(a);
+			System.out.println(a);
+	
+	  
+		
+		
+		
+	}
+
+}

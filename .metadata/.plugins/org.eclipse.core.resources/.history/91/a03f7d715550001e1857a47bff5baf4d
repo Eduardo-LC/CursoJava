@@ -1,0 +1,27 @@
+package classe;
+
+public class Pessoa {
+	
+	String nome;
+	int peso;
+	
+	Pessoa (){
+		
+	}
+	
+	Pessoa (String nome, int peso){
+		this.nome = nome;
+		this.peso = peso;
+	}
+	
+	Double comer (String nome, int peso) {
+		
+		int pesoAtulizado = peso + pesoComida;
+		
+		
+		
+		
+		
+	}
+
+}

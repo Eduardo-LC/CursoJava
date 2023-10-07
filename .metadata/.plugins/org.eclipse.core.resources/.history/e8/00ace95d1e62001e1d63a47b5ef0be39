@@ -1,0 +1,28 @@
+package execao;
+
+public class Basico {
+	
+	public static void main(String[] args) {
+		
+		Aluno a1 = null;
+		
+		try {
+			imprimirAluno(a1);
+		} catch(Exception excecao) {
+			System.out.println("Ocorreu um erro no momento de "
+					+ "imprimir o nome do aluno");
+		}
+		try {
+			System.out.println(7 / 0);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("Fim!!");
+	}
+
+	
+	public static void imprimirAluno(execao.Aluno aluno) {
+		System.out.println(aluno.nome);
+	}
+}

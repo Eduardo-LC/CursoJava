@@ -1,0 +1,19 @@
+package oo.composicao.desafio;
+
+import java.util.ArrayList;
+
+public class Cliente {
+	
+	String nome;
+	ArrayList<Compra> compras = new ArrayList<Compra>();
+	
+	public double obterValorTotalCliente() {
+		
+		double total;
+		for(Compra compra: compras) {
+			
+			
+		}
+		
+		return total;
+}

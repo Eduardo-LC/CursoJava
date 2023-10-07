@@ -1,0 +1,39 @@
+package controle;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDiaSemana {
+	
+	public static void main(String[] args) {
+		
+		// Domingo 1
+		// segunga 2
+		// terça 3
+		// quarta 4
+		// quinta 5
+		// sexta 6
+		// sabado 7
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		String diasemana = JOptionPane.showInputDialog(
+				"Digite o dia da semana!");
+		
+		
+		
+		if(diasemana == "domingo") {
+			double dianum = Double.parseDouble(diasemana);
+			
+			
+		}
+			
+		entrada.close();
+		
+		
+		
+	
+	}
+
+}

@@ -1,0 +1,11 @@
+package fundamentos;
+
+public class DesafioAritmeticos { 
+	
+	public static void main(String[] args) {
+		
+		double c = Math.pow(a, 3);
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CampoTeste" project="campo_minado" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.cod3r.cm.modelo.CampoTeste" time="0.015" displayname="CampoTeste" uniqueid="[engine:junit-jupiter]/[class:br.com.cod3r.cm.modelo.CampoTeste]">
+    <testcase name="testeVizinhoRealDistancia1Emcima" classname="br.com.cod3r.cm.modelo.CampoTeste" time="0.011" displayname="testeVizinhoRealDistancia1Emcima()" uniqueid="[engine:junit-jupiter]/[class:br.com.cod3r.cm.modelo.CampoTeste]/[method:testeVizinhoRealDistancia1Emcima()]"/>
+    <testcase name="testeVizinhoRealDistancia1Esquerda" classname="br.com.cod3r.cm.modelo.CampoTeste" time="0.001" displayname="testeVizinhoRealDistancia1Esquerda()" uniqueid="[engine:junit-jupiter]/[class:br.com.cod3r.cm.modelo.CampoTeste]/[method:testeVizinhoRealDistancia1Esquerda()]"/>
+    <testcase name="testeVizinhoRealDistancia2" classname="br.com.cod3r.cm.modelo.CampoTeste" time="0.001" displayname="testeVizinhoRealDistancia2()" uniqueid="[engine:junit-jupiter]/[class:br.com.cod3r.cm.modelo.CampoTeste]/[method:testeVizinhoRealDistancia2()]"/>
+    <testcase name="testeVizinhoRealDistancia1Direita" classname="br.com.cod3r.cm.modelo.CampoTeste" time="0.001" displayname="testeVizinhoRealDistancia1Direita()" uniqueid="[engine:junit-jupiter]/[class:br.com.cod3r.cm.modelo.CampoTeste]/[method:testeVizinhoRealDistancia1Direita()]"/>
+    <testcase name="testeVizinhoRealDistancia1Embaixo" classname="br.com.cod3r.cm.modelo.CampoTeste" time="0.0" displayname="testeVizinhoRealDistancia1Embaixo()" uniqueid="[engine:junit-jupiter]/[class:br.com.cod3r.cm.modelo.CampoTeste]/[method:testeVizinhoRealDistancia1Embaixo()]"/>
+  </testsuite>
+</testrun>

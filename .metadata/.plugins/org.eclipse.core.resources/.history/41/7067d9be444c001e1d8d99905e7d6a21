@@ -1,0 +1,29 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		int contAlunos = 1;
+		int total = 0;
+		String texto = "";
+		int nota = 0;
+		
+		while(!texto.equalsIgnoreCase("sair") && nota < 0 && nota > 10  ) {
+			System.out.println("Digite a nota do aluno: ");
+			double nota = entrada.nextDouble();
+			total += nota;
+			System.out.print("deseja continuar?");
+			contAlunos++;
+		}
+		
+		
+		
+		entrada.close();
+	}
+
+}

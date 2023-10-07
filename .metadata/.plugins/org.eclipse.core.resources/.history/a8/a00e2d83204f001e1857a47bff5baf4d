@@ -1,0 +1,16 @@
+package classe;
+
+public class Produto {
+	
+	String nome;
+	double preco;
+	double desconto;
+	
+	double precoComDesconto () {
+		
+		double precoCD = preco * desconto;
+
+		return precoCD;
+	}
+
+}

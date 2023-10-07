@@ -1,0 +1,11 @@
+package oo.herança.desafio;
+
+public class Ferrari extends Carro{
+	
+	void acelerar() {
+		
+		double acelerar1 = super.acelerar();
+	}
+	
+
+}

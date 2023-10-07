@@ -1,0 +1,26 @@
+package colecoes;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class ConjuntoComportado {
+	
+	public static void main(String[] args) {
+		
+		Set<String> lista = new TreeSet<>();
+		
+		lista.add("SeuCuca");
+		lista.add("SuCulo");
+		lista.add("Luca");
+		lista.add("Santiago");
+		
+		for (String candidato: listaAprovados) {
+			System.out.println(candidato);
+			
+		}
+		
+	}
+
+}
